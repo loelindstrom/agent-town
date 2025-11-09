@@ -63,4 +63,7 @@ Hybrid LLMs: Master uses cloud LLM (Grok/Claude) for planning; subs use local fo
 
 ## One Project = One Instance
 Keeps context clean
-Reuse: git clone your agents/, guidelines/, steering_doc.md to new instance  
+Reuse: git clone your agents/, guidelines/, steering_doc.md to new instance.  
+Or new instance might be overkill. It might just be enough to have separate user folders on the linux instance and then just let 
+all main agents know that there lives other main agents on the instace and that they should try to avoid installing global tools which
+can break for the others. Well, this is a point to return to.
